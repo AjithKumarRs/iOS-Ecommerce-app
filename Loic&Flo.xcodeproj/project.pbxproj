@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3BC6748FAC2F8E9302882AC /* Pods_Loic_Flo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFC123E46D5D2C0EE6057D7 /* Pods_Loic_Flo.framework */; };
+		EA0B189A1EBA346B00C25A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B18991EBA346B00C25A97 /* AppDelegate.swift */; };
+		EA0B189C1EBA346B00C25A97 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B189B1EBA346B00C25A97 /* MasterViewController.swift */; };
+		EA0B189E1EBA346B00C25A97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B189D1EBA346B00C25A97 /* DetailViewController.swift */; };
+		EA0B18A11EBA346B00C25A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0B189F1EBA346B00C25A97 /* Main.storyboard */; };
+		EA0B18A31EBA346B00C25A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0B18A21EBA346B00C25A97 /* Assets.xcassets */; };
+		EA0B18A61EBA346B00C25A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0B18A41EBA346B00C25A97 /* LaunchScreen.storyboard */; };
+		EA2DCB761EC9ADCE008FA1DC /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DCB751EC9ADCE008FA1DC /* ConnexionViewController.swift */; };
+		EA71AD301EC9E86A00D6B80C /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71AD2F1EC9E86A00D6B80C /* GameTableViewCell.swift */; };
+		EA71AD321EC9F0E200D6B80C /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71AD311EC9F0E200D6B80C /* GameTableViewController.swift */; };
+		EA71AD341EC9F0F400D6B80C /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71AD331EC9F0F400D6B80C /* OrderTableViewController.swift */; };
+		EA71AD361ECB4EEE00D6B80C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71AD351ECB4EEE00D6B80C /* User.swift */; };
+		EA742ADF1EC9D80C00E92008 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA742ADE1EC9D80C00E92008 /* OrderTableViewCell.swift */; };
+		EA9E57AE1ED48C1F00FB75A0 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E57AD1ED48C1F00FB75A0 /* GameManager.swift */; };
+		EAE5A9721EBBC62600661688 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9711EBBC62600661688 /* Game.swift */; };
+		EAE5A9741EBBC8B100661688 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9731EBBC8B100661688 /* Console.swift */; };
+		EAE5A9761EC50B5400661688 /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9751EC50B5400661688 /* cart.swift */; };
+		EAE5A9781EC50FC500661688 /* LignePanier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9771EC50FC500661688 /* LignePanier.swift */; };
+		EAE5A97A1EC595AA00661688 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A9791EC595AA00661688 /* Order.swift */; };
+		EAE5A97C1EC5A25700661688 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5A97B1EC5A25700661688 /* OrderManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11604F8C61DC171D2AAD8B99 /* Pods-Loic&Flo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loic&Flo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loic&Flo/Pods-Loic&Flo.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0E3A7134A2B5B438417E7A /* Pods-Loic&Flo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loic&Flo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loic&Flo/Pods-Loic&Flo.release.xcconfig"; sourceTree = "<group>"; };
+		EA0B18961EBA346B00C25A97 /* Loic&Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loic&Flo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0B18991EBA346B00C25A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0B189B1EBA346B00C25A97 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EA0B189D1EBA346B00C25A97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EA0B18A01EBA346B00C25A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA0B18A21EBA346B00C25A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0B18A51EBA346B00C25A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0B18A71EBA346B00C25A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2DCB751EC9ADCE008FA1DC /* ConnexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		EA71AD2F1EC9E86A00D6B80C /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		EA71AD311EC9F0E200D6B80C /* GameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
+		EA71AD331EC9F0F400D6B80C /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		EA71AD351ECB4EEE00D6B80C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EA742ADE1EC9D80C00E92008 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		EA742AE01EC9E06100E92008 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		EA9E57AD1ED48C1F00FB75A0 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		EAE5A9711EBBC62600661688 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EAE5A9731EBBC8B100661688 /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		EAE5A9751EC50B5400661688 /* cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		EAE5A9771EC50FC500661688 /* LignePanier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LignePanier.swift; sourceTree = "<group>"; };
+		EAE5A9791EC595AA00661688 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EAE5A97B1EC5A25700661688 /* OrderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		EEFC123E46D5D2C0EE6057D7 /* Pods_Loic_Flo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loic_Flo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0B18931EBA346B00C25A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC6748FAC2F8E9302882AC /* Pods_Loic_Flo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D804268F31E6A42A106EC4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11604F8C61DC171D2AAD8B99 /* Pods-Loic&Flo.debug.xcconfig */,
+				5E0E3A7134A2B5B438417E7A /* Pods-Loic&Flo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD1680A7BD86D1B1C9D4B96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEFC123E46D5D2C0EE6057D7 /* Pods_Loic_Flo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0B188D1EBA346B00C25A97 = {
+			isa = PBXGroup;
+			children = (
+				EA0B18981EBA346B00C25A97 /* Loic&Flo */,
+				EA0B18971EBA346B00C25A97 /* Products */,
+				5D804268F31E6A42A106EC4B /* Pods */,
+				BD1680A7BD86D1B1C9D4B96D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0B18971EBA346B00C25A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B18961EBA346B00C25A97 /* Loic&Flo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0B18981EBA346B00C25A97 /* Loic&Flo */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B18991EBA346B00C25A97 /* AppDelegate.swift */,
+				EA0B189B1EBA346B00C25A97 /* MasterViewController.swift */,
+				EA0B189D1EBA346B00C25A97 /* DetailViewController.swift */,
+				EA2DCB751EC9ADCE008FA1DC /* ConnexionViewController.swift */,
+				EA742ADE1EC9D80C00E92008 /* OrderTableViewCell.swift */,
+				EA71AD331EC9F0F400D6B80C /* OrderTableViewController.swift */,
+				EA71AD2F1EC9E86A00D6B80C /* GameTableViewCell.swift */,
+				EA71AD311EC9F0E200D6B80C /* GameTableViewController.swift */,
+				EA0B189F1EBA346B00C25A97 /* Main.storyboard */,
+				EA0B18A21EBA346B00C25A97 /* Assets.xcassets */,
+				EA0B18A41EBA346B00C25A97 /* LaunchScreen.storyboard */,
+				EA0B18A71EBA346B00C25A97 /* Info.plist */,
+				EAE5A9711EBBC62600661688 /* Game.swift */,
+				EAE5A9731EBBC8B100661688 /* Console.swift */,
+				EAE5A9751EC50B5400661688 /* cart.swift */,
+				EAE5A9771EC50FC500661688 /* LignePanier.swift */,
+				EAE5A9791EC595AA00661688 /* Order.swift */,
+				EAE5A97B1EC5A25700661688 /* OrderManager.swift */,
+				EA742AE01EC9E06100E92008 /* BridgingHeader.h */,
+				EA71AD351ECB4EEE00D6B80C /* User.swift */,
+				EA9E57AD1ED48C1F00FB75A0 /* GameManager.swift */,
+			);
+			path = "Loic&Flo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0B18951EBA346B00C25A97 /* Loic&Flo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0B18AA1EBA346B00C25A97 /* Build configuration list for PBXNativeTarget "Loic&Flo" */;
+			buildPhases = (
+				942EF722A6347E8340D13F13 /* [CP] Check Pods Manifest.lock */,
+				EA0B18921EBA346B00C25A97 /* Sources */,
+				EA0B18931EBA346B00C25A97 /* Frameworks */,
+				EA0B18941EBA346B00C25A97 /* Resources */,
+				E33BFB49B00D1A4F8CDCED3F /* [CP] Embed Pods Frameworks */,
+				2978E62FF4C30C2BA5596980 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loic&Flo";
+			productName = "Loic&Flo";
+			productReference = EA0B18961EBA346B00C25A97 /* Loic&Flo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0B188E1EBA346B00C25A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Florian Cartier";
+				TargetAttributes = {
+					EA0B18951EBA346B00C25A97 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V2AELWCL86;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA0B18911EBA346B00C25A97 /* Build configuration list for PBXProject "Loic&Flo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0B188D1EBA346B00C25A97;
+			productRefGroup = EA0B18971EBA346B00C25A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0B18951EBA346B00C25A97 /* Loic&Flo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0B18941EBA346B00C25A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0B18A61EBA346B00C25A97 /* LaunchScreen.storyboard in Resources */,
+				EA0B18A31EBA346B00C25A97 /* Assets.xcassets in Resources */,
+				EA0B18A11EBA346B00C25A97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2978E62FF4C30C2BA5596980 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loic&Flo/Pods-Loic&Flo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942EF722A6347E8340D13F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E33BFB49B00D1A4F8CDCED3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loic&Flo/Pods-Loic&Flo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0B18921EBA346B00C25A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE5A9781EC50FC500661688 /* LignePanier.swift in Sources */,
+				EA9E57AE1ED48C1F00FB75A0 /* GameManager.swift in Sources */,
+				EA0B189E1EBA346B00C25A97 /* DetailViewController.swift in Sources */,
+				EA2DCB761EC9ADCE008FA1DC /* ConnexionViewController.swift in Sources */,
+				EA71AD321EC9F0E200D6B80C /* GameTableViewController.swift in Sources */,
+				EAE5A97A1EC595AA00661688 /* Order.swift in Sources */,
+				EAE5A9741EBBC8B100661688 /* Console.swift in Sources */,
+				EA742ADF1EC9D80C00E92008 /* OrderTableViewCell.swift in Sources */,
+				EA0B189C1EBA346B00C25A97 /* MasterViewController.swift in Sources */,
+				EA71AD361ECB4EEE00D6B80C /* User.swift in Sources */,
+				EA71AD341EC9F0F400D6B80C /* OrderTableViewController.swift in Sources */,
+				EAE5A9761EC50B5400661688 /* cart.swift in Sources */,
+				EAE5A97C1EC5A25700661688 /* OrderManager.swift in Sources */,
+				EA0B189A1EBA346B00C25A97 /* AppDelegate.swift in Sources */,
+				EAE5A9721EBBC62600661688 /* Game.swift in Sources */,
+				EA71AD301EC9E86A00D6B80C /* GameTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA0B189F1EBA346B00C25A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0B18A01EBA346B00C25A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0B18A41EBA346B00C25A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0B18A51EBA346B00C25A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0B18A81EBA346B00C25A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA0B18A91EBA346B00C25A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0B18AB1EBA346B00C25A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11604F8C61DC171D2AAD8B99 /* Pods-Loic&Flo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2AELWCL86;
+				INFOPLIST_FILE = "Loic&Flo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Cartier.Loic-Flo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Loic&Flo/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA0B18AC1EBA346B00C25A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0E3A7134A2B5B438417E7A /* Pods-Loic&Flo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2AELWCL86;
+				INFOPLIST_FILE = "Loic&Flo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Cartier.Loic-Flo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Loic&Flo/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0B18911EBA346B00C25A97 /* Build configuration list for PBXProject "Loic&Flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0B18A81EBA346B00C25A97 /* Debug */,
+				EA0B18A91EBA346B00C25A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0B18AA1EBA346B00C25A97 /* Build configuration list for PBXNativeTarget "Loic&Flo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0B18AB1EBA346B00C25A97 /* Debug */,
+				EA0B18AC1EBA346B00C25A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0B188E1EBA346B00C25A97 /* Project object */;
+}
