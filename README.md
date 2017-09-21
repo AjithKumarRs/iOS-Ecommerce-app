@@ -40,4 +40,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* A special thanks to [Paul Jeannot](https://github.com/pauljeannot) for his advice and explications.
+* A special thanks to [Paul Jeannot](https://github.com/pauljeannot) for his advice and explanations.
